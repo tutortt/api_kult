@@ -4,6 +4,18 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Project-specific files not included in the repository
+/nb-configuration.xml
+/mvnw
+/mvnw.cmd
+/.mvn/wrapper/maven-wrapper.properties
+/src/main/webapp/META-INF/context.xml
+
 ### STS ###
 .apt_generated
 .classpath
